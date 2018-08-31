@@ -10,6 +10,16 @@ public class ShiftAround {
 // String str = un.next();
 // solve(str);
 // }
+    
+    public static void main(String[] args) {
+        //read the two input
+        System.out.println("Welcome to the shift cipher calculator");
+        System.out.println("Please input the cipher string in capital form: ");
+        Scanner inx = new Scanner (System.in);
+        String str = inx.nextLine();
+        solve(str);
+        
+    }
 
     public static void solve(String str) {
         HashMap<String, Integer> myMapl = new HashMap<String, Integer>();
